@@ -4,6 +4,8 @@
 
 This project implements a fractal generation algorithm based on the **Peter De Jong** map. The original version of the code is **single-threaded** and generates fractals by iterating through a set of points. However, as the number of points increases, the computation time grows significantly. To improve performance, the code has been parallelized using **pthreads** to utilize multiple CPU cores for faster computation, especially when working with large datasets.
 
+Note: Not all helper functions are available in this repository. My advisor assisted me in generating the starter code, and as of now, I haven’t had the chance to get his permission to copy over all the code. Some functions may be missing or incomplete in the current version.
+
 ## **Features**
 
 * **Single-Threaded Version**: Generates fractals sequentially, processing one point at a time.
